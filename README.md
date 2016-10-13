@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">][AO AppCluster](https://www.aoindustries.com/ao-appcluster/) / (https://www.aoindustries.com/) [AO AppCluster All](https://www.aoindustries.com/ao-appcluster/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [AO AppCluster](https://www.aoindustries.com/ao-appcluster/) / [All](https://www.aoindustries.com/ao-appcluster/all/)
 Convenience POM to include all application-level clustering tools.
 
 ## Project Links
