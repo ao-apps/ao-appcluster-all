@@ -1,13 +1,10 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [AO AppCluster All](https://www.aoindustries.com/ao-appcluster/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">][AO AppCluster](https://www.aoindustries.com/ao-appcluster/) / (https://www.aoindustries.com/) [AO AppCluster All](https://www.aoindustries.com/ao-appcluster/all/)
 Convenience POM to include all application-level clustering tools.
 
 ## Project Links
 * [Project Home](https://www.aoindustries.com/ao-appcluster/all/)
 * [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.aoindustries%22%20AND%20a:%22ao-appcluster-all%22)
 * [GitHub](https://github.com/aoindustries/ao-appcluster-all)
-
-## Part Of
-* [AO AppCluster](https://www.aoindustries.com/ao-appcluster/)
 
 ## Modules Included
 * [AO AppCluster Core](https://www.aoindustries.com/ao-appcluster/core/)
