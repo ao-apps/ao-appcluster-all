@@ -27,7 +27,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<parent>
 		<groupId>com.aoindustries</groupId>
 		<artifactId>ao-appcluster</artifactId>
-		<version>1.0.1</version>
+		<version>1.0.2-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.aoindustries</groupId>
@@ -43,7 +43,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/ao-appcluster-all.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/ao-appcluster-all.git</developerConnection>
-		<url>http://github.com/aoindustries/ao-appcluster-all</url>
+		<url>https://github.com/aoindustries/ao-appcluster-all</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -51,31 +51,31 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-core</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-csync2</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-dnsonly</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-imap</artifactId>
-			<version>0.1.1</version>
+			<version>0.1.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-jdbc</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
