@@ -34,7 +34,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		description="@{project.description}"
 	>
 		<p>
-			<ao:out value="${currentPage.description}" />
+			@{description.html}
 		</p>
 		<section:section label="Project Links">
 			<ul>
