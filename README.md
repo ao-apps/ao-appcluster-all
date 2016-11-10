@@ -9,7 +9,7 @@ Convenience POM to include all application-level clustering tools.
 
 ## Modules Included
 * [AO AppCluster Core](https://aoindustries.com/ao-appcluster/core/)
-* [AO AppCluster Csync2](https://aoindustries.com/ao-appcluster/csyn2/)
+* [AO AppCluster Csync2](https://aoindustries.com/ao-appcluster/csync2/)
 * [AO AppCluster DNS Only](https://aoindustries.com/ao-appcluster/dnsonly/)
 * [AO AppCluster IMAP](https://aoindustries.com/ao-appcluster/imap/)
 * [AO AppCluster JDBC](https://aoindustries.com/ao-appcluster/jdbc/)
