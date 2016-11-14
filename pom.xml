@@ -26,8 +26,9 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<parent>
 		<groupId>com.aoindustries</groupId>
-		<artifactId>ao-appcluster</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<artifactId>ao-oss-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.aoindustries</groupId>
@@ -35,12 +36,8 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<properties>
-		<shortTitle>All</shortTitle>
-	</properties>
-
 	<name>AO AppCluster All</name>
-	<url>https://aoindustries.com/${project.parent.artifactId}/all/</url>
+	<url>https://aoindustries.com/ao-appcluster/all/</url>
 	<description>Convenience POM to include all application-level clustering tools.</description>
 	<inceptionYear>2016</inceptionYear>
 
