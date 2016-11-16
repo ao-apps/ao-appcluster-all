@@ -35,7 +35,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<artifactId>ao-appcluster-all-book</artifactId>
 	<!-- TODO: Use Maven Enforcer Plugin to make sure book and main project are the same version:
 	           http://maven.apache.org/enforcer/enforcer-rules/ -->
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -62,7 +62,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/${documented.artifactId}.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/${documented.artifactId}.git</developerConnection>
 		<url>${documented.scm.url}</url>
-		<tag>HEAD</tag>
+		<tag>ao-appcluster-all-book-1.0.2</tag>
 	</scm>
 
 	<dependencies>
