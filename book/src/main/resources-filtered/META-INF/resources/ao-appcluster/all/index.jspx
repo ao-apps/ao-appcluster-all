@@ -1,6 +1,6 @@
 <!--
 ao-appcluster-all - Convenience POM to include all application-level clustering tools.
-Copyright (C) 2016  AO Industries, Inc.
+Copyright (C) 2016, 2017  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -33,9 +33,16 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-23T22:47:00-0500"
-		dateModified="2016-10-28T00:11:09-0500"
+		dateModified="2017-07-13T17:20:37-0500"
+		property.projectStatus="current-stable"
+		property.projectStatusDisplay="Current Stable"
 	>
 		<core:child page="changelog.jspx" />
+		<div class="project-status-bar">
+			<core:link book="/" page="/life-cycle.jspx" element="project" class="life-cycle project #{fn:escapeXml(currentPage.properties.projectStatus)}">
+				<ao:out value="${currentPage.properties.property.projectStatusDisplay}" />
+			</core:link>
+		</div>
 		<p>
 			@{documented.description}
 		</p>
