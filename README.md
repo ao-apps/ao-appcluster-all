@@ -1,4 +1,22 @@
 # [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [AO AppCluster](https://aoindustries.com/ao-appcluster/) / [All](https://aoindustries.com/ao-appcluster/all/)
+<p>
+	<a href="https://aoindustries.com/life-cycle.jspx#project">
+		<img src="https://aoindustries.com/badge/project-current-stable.svg" alt="project status" />
+	</a>
+	<a href="https://aoindustries.com/life-cycle.jspx#management">
+		<img src="https://aoindustries.com/badge/management-production.svg" alt="management status" />
+	</a>
+	<a href="https://aoindustries.com/life-cycle.jspx#packaging">
+		<img src="https://aoindustries.com/badge/packaging-active.svg" alt="packaging status" />
+	</a>
+	<br />
+	<a href="http://semver.org/spec/v2.0.0.html">
+		<img src="https://aoindustries.com/badge/semver-2.0.0.svg" alt="semantic versioning" />
+	</a>
+	<a href="https://www.gnu.org/licenses/lgpl-3.0">
+		<img src="https://aoindustries.com/badge/license-lgplv3.svg" alt="license" />
+	</a>
+</p>
 Convenience POM to include all application-level clustering tools.
 
 ## Project Links

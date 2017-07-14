@@ -34,16 +34,32 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-23T22:47:00-0500"
-		dateModified="2017-07-13T17:20:37-0500"
+		dateModified="2017-07-14T03:36:06-0500"
 		property.projectStatus="current-stable"
-		property.projectStatusDisplay="Current Stable"
+		property.managementStatus="production"
+		property.packagingStatus="active"
+		property.semanticVersioning="2.0.0"
+		property.javaVersion="6"
 	>
 		<core:child page="changelog.jspx" />
-		<div class="project-status-bar">
-			<core:link book="/" page="/life-cycle.jspx" element="project" class="life-cycle project #{fn:escapeXml(currentPage.properties.projectStatus)}">
-				<ao:out value="${currentPage.properties.projectStatusDisplay}" />
+		<p class="project-status-bar">
+			<core:link book="/" page="/life-cycle.jspx" element="project">
+				<ao:img src="/badge/project-${currentPage.properties.projectStatus}.svg" alt="project status" />
 			</core:link>
-		</div>
+			<core:link book="/" page="/life-cycle.jspx" element="management">
+				<ao:img src="/badge/management-${currentPage.properties.managementStatus}.svg" alt="management status" />
+			</core:link>
+			<core:link book="/" page="/life-cycle.jspx" element="packaging">
+				<ao:img src="/badge/packaging-${currentPage.properties.packagingStatus}.svg" alt="packaging status" />
+			</core:link>
+			<br />
+			<ao:a rel="nofollow" href="http://semver.org/spec/v${currentPage.properties.semanticVersioning}.html">
+				<ao:img src="/badge/semver-${currentPage.properties.semanticVersioning}.svg" alt="semantic versioning" />
+			</ao:a>
+			<ao:a rel="nofollow" href="https://www.gnu.org/licenses/lgpl-3.0">
+				<ao:img src="/badge/license-lgplv3.svg" alt="license" />
+			</ao:a>
+		</p>
 		<p>
 			@{documented.description}
 		</p>
