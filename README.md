@@ -13,6 +13,9 @@
 	<a href="http://semver.org/spec/v2.0.0.html">
 		<img src="https://aoindustries.com/badge/semver-2.0.0.svg" alt="semantic versioning" />
 	</a>
+	<a href="https://docs.oracle.com/javase/6/docs/api/">
+		<img src="https://aoindustries.com/badge/java-6.svg" alt="java version" />
+	</a>
 	<a href="https://www.gnu.org/licenses/lgpl-3.0">
 		<img src="https://aoindustries.com/badge/license-lgplv3.svg" alt="license" />
 	</a>
