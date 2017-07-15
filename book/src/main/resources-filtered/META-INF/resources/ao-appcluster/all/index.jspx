@@ -34,12 +34,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-23T22:47:00-0500"
-		dateModified="2017-07-14T03:48:36-0500"
-		property.projectStatus="current-stable"
-		property.managementStatus="production"
-		property.packagingStatus="active"
-		property.semanticVersioning="2.0.0"
-		property.javaVersion="6"
+		dateModified="2017-07-15T00:48:49-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<p class="project-status-bar">
