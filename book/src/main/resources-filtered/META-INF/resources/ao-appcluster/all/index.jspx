@@ -44,7 +44,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 			arg.packagingStatus="${currentPage.properties.packagingStatus}"
 			arg.semanticVersioning="${currentPage.properties.semanticVersioning}"
 			arg.javaVersion="${currentPage.properties.javaVersion}"
-			arg.license="lgpl-3.0"
+			arg.license="${currentPage.properties.license}"
 		/>
 		<p>
 			@{documented.description}
