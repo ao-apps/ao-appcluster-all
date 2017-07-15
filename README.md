@@ -20,6 +20,7 @@
 		<img src="https://aoindustries.com/ao-badges/license-lgpl-3.0.svg" alt="license: LGPL v3" />
 	</a>
 </p>
+
 Convenience POM to include all application-level clustering tools.
 
 ## Project Links
