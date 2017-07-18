@@ -33,7 +33,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-23T22:47:00-0500"
-		dateModified="2017-07-15T14:28:54-0500"
+		dateModified="2017-07-17T21:12:37-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<ao:include
