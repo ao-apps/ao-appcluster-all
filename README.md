@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [AO AppCluster](https://aoindustries.com/ao-appcluster/) / [All](https://aoindustries.com/ao-appcluster/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO AppCluster](https://github.com/aoindustries/ao-appcluster) / [All](https://github.com/aoindustries/ao-appcluster-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://aoindustries.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -30,11 +30,11 @@ Convenience POM to include all application-level clustering tools.
 * [GitHub](https://github.com/aoindustries/ao-appcluster-all)
 
 ## Modules Included
-* [AO AppCluster Core](https://aoindustries.com/ao-appcluster/core/)
-* [AO AppCluster Csync2](https://aoindustries.com/ao-appcluster/csync2/)
-* [AO AppCluster DNS Only](https://aoindustries.com/ao-appcluster/dnsonly/)
-* [AO AppCluster IMAP](https://aoindustries.com/ao-appcluster/imap/)
-* [AO AppCluster JDBC](https://aoindustries.com/ao-appcluster/jdbc/)
+* [AO AppCluster Core](https://github.com/aoindustries/ao-appcluster-core)
+* [AO AppCluster Csync2](https://github.com/aoindustries/ao-appcluster-csync2)
+* [AO AppCluster DNS Only](https://github.com/aoindustries/ao-appcluster-dnsonly)
+* [AO AppCluster IMAP](https://github.com/aoindustries/ao-appcluster-imap)
+* [AO AppCluster JDBC](https://github.com/aoindustries/ao-appcluster-jdbc)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
