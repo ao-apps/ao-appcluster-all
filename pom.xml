@@ -29,7 +29,7 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-all</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-all</artifactId><version>1.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>AO AppCluster All</name>
@@ -45,25 +45,51 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		<tag>HEAD</tag>
 	</scm>
 
+	<dependencyManagement>
+		<dependencies>
+			<!-- TODO: ao-appcluster-bom -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
