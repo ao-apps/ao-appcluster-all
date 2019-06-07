@@ -47,26 +47,10 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- TODO: ao-appcluster-bom -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-bom</artifactId><version>1.1.1-SNAPSHOT</version>
 				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.1-SNAPSHOT</version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1-SNAPSHOT</version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1-SNAPSHOT</version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.1-SNAPSHOT</version>
-				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -74,23 +58,18 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencies>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId>
-			<type>pom</type>
 		</dependency>
 	</dependencies>
 </project>
