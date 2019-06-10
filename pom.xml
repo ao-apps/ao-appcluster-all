@@ -48,7 +48,42 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-bom</artifactId><version>1.1.1-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.1-SNAPSHOT</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
