@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-appcluster-all - Convenience POM to include all application-level clustering tools.
-Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -55,19 +55,19 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.2-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-csync2</artifactId><version>1.1.2${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>1.1.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-imap</artifactId><version>1.1.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.2-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>1.1.2${POST-SNAPSHOT}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
