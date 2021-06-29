@@ -30,7 +30,11 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 	</parent>
 
 	<groupId>com.aoapps</groupId><artifactId>ao-appcluster-all</artifactId><version>2.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<module.name>com.aoapps.appcluster.all</module.name>
+	</properties>
 
 	<name>AO AppCluster All</name>
 	<url>https://oss.aoapps.com/appcluster/all/</url>
@@ -71,6 +75,23 @@ along with ao-appcluster-all.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/ao-appcluster-all/issues</url>
 	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<usedDependencies>
+						<!-- Direct -->
+						<dependency>com.aoapps:ao-appcluster-csync2</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-appcluster-dnsonly</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-appcluster-imap</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-appcluster-jdbc</dependency><!-- Required for module-info.java -->
+					</usedDependencies>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencyManagement>
 		<dependencies>
