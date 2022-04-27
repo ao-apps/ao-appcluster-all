@@ -27,4 +27,4 @@ module com.aoapps.appcluster.all {
   requires transitive com.aoapps.appcluster.dnsonly; // <groupId>com.aoapps</groupId><artifactId>ao-appcluster-dnsonly</artifactId>
   requires transitive com.aoapps.appcluster.imap; // <groupId>com.aoapps</groupId><artifactId>ao-appcluster-imap</artifactId>
   requires transitive com.aoapps.appcluster.jdbc; // <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
