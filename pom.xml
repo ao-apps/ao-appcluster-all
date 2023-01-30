@@ -112,11 +112,12 @@ along with ao-appcluster-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.aoapps:ao-appcluster-csync2</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-appcluster-dnsonly</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-appcluster-imap</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-appcluster-jdbc</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.aoapps:ao-appcluster-core</dependency>
+            <dependency>com.aoapps:ao-appcluster-csync2</dependency>
+            <dependency>com.aoapps:ao-appcluster-dnsonly</dependency>
+            <dependency>com.aoapps:ao-appcluster-imap</dependency>
+            <dependency>com.aoapps:ao-appcluster-jdbc</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
