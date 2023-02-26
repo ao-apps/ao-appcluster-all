@@ -20,7 +20,7 @@ Convenience POM to include all application-level clustering tools.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/appcluster/all/)
 * [Changelog](https://oss.aoapps.com/appcluster/all/changelog)
-* [Maven Central Repository](https://search.maven.org/artifact/com.aoapps/ao-appcluster-all)
+* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-appcluster-all)
 * [GitHub](https://github.com/ao-apps/ao-appcluster-all)
 
 ## Modules Included
